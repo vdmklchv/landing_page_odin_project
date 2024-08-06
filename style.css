@@ -55,7 +55,7 @@ body {
 
 .preview {
     display: flex;
-    flex-basis: 400px;
+    flex-basis: 500px;
     flex-shrink: 0;
     justify-content: center;
     background-color: #1F2937;
@@ -100,6 +100,53 @@ body {
     border: none;
 }
 
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 500px;
+    flex-shrink: 0;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-top {
+    justify-content: center;
+}
+
+.info-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-basis: 900px;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-image {
+    border: 3px #3882F6 solid;
+    border-radius: 10px;
+    flex-basis: 200px;
+}
+
+.card-text {
+    text-align: center;
+}
 
 .footer {
     margin-top: auto;
