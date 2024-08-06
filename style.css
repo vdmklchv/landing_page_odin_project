@@ -148,6 +148,31 @@ body {
     text-align: center;
 }
 
+.quote {
+    display: flex;
+    flex-basis: 400px;
+    flex-shrink: 0;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    flex-basis: 900px;
+}
+
+.quote-text {
+    text-align: justify;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-subtext {
+    text-align: right;
+    font-weight: 900;
+    font-size: 1.6em;
+}
+
 .footer {
     margin-top: auto;
     font-size: 18px;
