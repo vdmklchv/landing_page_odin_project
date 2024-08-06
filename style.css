@@ -45,3 +45,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.preview {
+    flex-grow: 1;
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.quote {
+    flex-grow: 1;
+}
+
+.action-container {
+    flex-grow: 1;
+}
