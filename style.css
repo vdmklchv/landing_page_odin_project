@@ -48,7 +48,7 @@ body {
 .preview,
 .info,
 .quote,
-.action-container {
+.action {
     flex-grow: 1;
     flex-basis: 200px;
 }
@@ -173,12 +173,45 @@ body {
     font-size: 1.6em;
 }
 
+.action {
+    display: flex;
+    flex-basis: 400px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-modal {
+    flex-basis: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+}
+
+.modal-heading {
+    margin-bottom: 10px;
+}
+
+.modal-button {
+    padding: 10px 40px;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
 .footer {
     margin-top: auto;
     font-size: 18px;
     color: #E5E7EB;
     background-color: #1F2937;
     flex-basis: 50px;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
